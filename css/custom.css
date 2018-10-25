@@ -1,10 +1,10 @@
-/*This Custom CSS file has not been structured in any particular order. 
+/*This Custom CSS file has not been structured in any particular order.
 
 Modify this file to your hearts content and make your website look awesome!*/
 
 
 body{
-	background-color: #ebebeb;
+	background-color: white;
 	padding-top: 80px;
 }
 
@@ -37,7 +37,7 @@ img.nav-bar-img{
 
 a.navbar-brand{
 	font-family:'Montserrat', Sans-Serif;
-	font-size: 
+	font-size:
 }
 
 /*Floating Nav*/
@@ -127,11 +127,11 @@ span.img-caption{
 }
 
 .master-heading{
-	padding-top: 50px;	
+	padding-top: 50px;
 }
 
 .section-heading{
-	padding-top: 100px;	
+	padding-top: 100px;
 }
 
 .slide-show{
@@ -147,6 +147,3 @@ span.img-caption{
 	background-color: #989898;
 	border-top: 1px solid #727272;
 }
-
-
-
