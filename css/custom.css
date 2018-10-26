@@ -1,11 +1,14 @@
 /*This Custom CSS file has not been structured in any particular order.
 
 Modify this file to your hearts content and make your website look awesome!*/
-
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body{
 	background-color: white;
 	padding-top: 80px;
+	font-family: 'Raleway', sans-serif;
 }
 
 /*Home*/
@@ -15,7 +18,6 @@ body{
   padding-bottom: 100px;
   width:100%;
   min-height: 100vh;
-  background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -148,10 +150,18 @@ span.img-caption{
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
-	background-color: #989898;
-	border-top: 1px solid #727272;
+	background-color: #EA8481;
+	border-top: 1px solid #EA8481;
+}
+
+.footer p {
+	color: white;
 }
 
 .col-md-large {
 	font-size: 30px;
+}
+
+html {
+	font-family: 'Raleway' !important;
 }
