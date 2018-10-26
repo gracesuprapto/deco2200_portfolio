@@ -31,20 +31,21 @@ img.nav-bar-img{
 }
 
 .navbar{
-	background-color: #fff;
-
+	background-color: #EA8481;
 }
 
 a.navbar-brand{
 	font-family:'Montserrat', Sans-Serif;
-	font-size:
+	font-size: 20px;
+	color: white !important;
+
 }
 
 /*Floating Nav*/
 .floating-nav{
 	position: fixed;
 	margin-top: 50px;
-	border-left: 1px solid #727272;
+	border-left: 1px solid #EA8481;
 }
 
 	a.float-nav-link{
@@ -53,6 +54,9 @@ a.navbar-brand{
 		font-size: 14px;
 		font-weight: 600;
 		text-align: left;
+	}
+	a.nav-item {
+		color: white !important;
 	}
 
 /*Image Rules*/
@@ -79,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	h3{
 		text-transform: uppercase;
-		color: #a49727;
+		color: #EA8481;
 		letter-spacing: -0.5px;
 	}
 
@@ -147,7 +151,6 @@ span.img-caption{
 	background-color: #989898;
 	border-top: 1px solid #727272;
 }
-
 
 .col-md-large {
 	font-size: 30px;
